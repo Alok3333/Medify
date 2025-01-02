@@ -1,2 +1,4 @@
-# Medify
-X-Medify
+# Medify - Slot Booking
+
+Medify - Slot Booking
+
