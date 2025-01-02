@@ -1,9 +1,15 @@
-import * as React from 'react';
+import { Outlet } from "react-router-dom";
+import { CssBaseline } from "@mui/material";
+import Footer from "./components/Footer/Footer";
+import DownloadApp from "./components/Sections/DownloadApp/DownloadApp";
 
 function App() {
   return (
-    <div className="App">
-      Medify - slot Booking
+    <div>
+      <CssBaseline />
+      <Outlet />
+      <DownloadApp />
+      <Footer />
     </div>
   );
 }
